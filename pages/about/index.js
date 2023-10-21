@@ -1,3 +1,16 @@
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  SiNextdotjs,
+  SiFramer,
+  FaWordpress,
+  FaFigma,
+} from 'react-icons/fa';
+import { SiAdobexd, SiAdobephotoshop } from 'react-icons/si';
+
+
 //  data
 const aboutData = [
   {
@@ -6,13 +19,13 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <span key="html"><FaHtml5 /></span>,
+          <span key="html"><FaCss3 /></span>,
+          <span key="html"><FaJs /></span>,
+          <span key="html"><FaReact /></span>,
+          <span key="html"><SiNextdotjs /></span>,
+          <span key="html"><SiFramer /></span>,
+          <span key="html"><FaWordpress /></span>,
         ],
       },
       {
